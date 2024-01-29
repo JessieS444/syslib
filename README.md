@@ -10,7 +10,7 @@ For example, here is the `ls` command.
 Or, I can do a code block:
 
 ```
-for 1 in *; do
+for 1 in * ; do
   echo "$i"
 done
 ```
