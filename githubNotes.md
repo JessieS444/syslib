@@ -14,6 +14,7 @@ One random thing I liked learning was the name for camel case.
 I've seen it before (notably in a scifi book I like) but didn't know it had a name.
 
 Here it is:
+
 ![All Systems Red by Martha Wells](https://m.media-amazon.com/images/I/81thdg0KmZL._AC_UF1000,1000_QL80_.jpg)
 
 It's so *good*.
