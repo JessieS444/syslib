@@ -5,7 +5,7 @@ To open nano, simply type "nano" into command line. This opens a blank page.
 To open nano with a specific file name, type "nano filename". If the filename already exists then this command will open it.
 
 Nano has old origins before Common User Access guidelines standardized keyboard shortcuts.
->(That means that it uses different shortcuts than the normal 'ctrl-v' and 'ctrl-c' shortcuts.
+>(That means that it uses different shortcuts than the normal 'ctrl-v' and 'ctrl-c' shortcuts.)
 
 Here are the shortcuts:
 - 'Ctrl-s' to save current file
