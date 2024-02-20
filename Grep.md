@@ -50,3 +50,5 @@ First of all, it is a multi line query as shown by the `\`.
 
 <img width="959" alt="Screenshot 2024-02-19 at 8 48 58 PM" src="https://github.com/JessieS444/syslib/assets/157999229/6dd00376-2c18-49a0-afa5-ac49ce01567e">
 
+## Takeaway
+`grep` seems like a very useful tool for data analysis. It is very useful to be able to find key information concerning a large amount of resources.
