@@ -26,3 +26,12 @@ We will use a lot of `sudo apt` commands, such as:
 - `sudo apt clean` : removes extra files that were installed with other files in order to free up disc space.
 
 
+
+# Library Search
+
+I found library search to be pretty interesting. I've read about the Z39.50 protocol for classes, but not in much depth. It was interesting to retrieve information in this format.
+
+- `yaz-client` pulls up the program.
+- To connect to a library OPAC, use the `open` command followed by the server address (ex: `open saalck-uky.alma.exlibrisgroup.com:1921/01SAA_UKY` for UK's OPAC.
+
+<img width="783" alt="Screenshot 2024-02-25 at 2 47 21 PM" src="https://github.com/JessieS444/syslib/assets/157999229/2950175b-50e3-42c8-be4e-a4b92ca72a24">
