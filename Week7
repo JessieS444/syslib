@@ -1,0 +1,4 @@
+# Week 7 Notes
+
+## `sudo` Command
+The `sudo` command allows us to execute commands as if we were the root user.
