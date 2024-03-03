@@ -7,19 +7,19 @@
 - Code provided:
 - ```
   <html>
-<head>
-<title>My first web page using Apache2</title>
-</head>
-<body>
+  <head>
+  <title>My first web page using Apache2</title>
+  </head>
+  <body>
 
-<h1>Welcome</h1>
+  <h1>Welcome</h1>
 
-<p>Welcome to my web site.
-I created this site using the Apache2 HTTP server.</p>
+  <p>Welcome to my web site.
+  I created this site using the Apache2 HTTP server.</p>
 
-</body>
-</html>
-```
+  </body>
+  </html>
+  ```
 - Overall, I found this process to be more simple than I thought it would be.
 - I played with the HTML code we were given to make my website look like this:
 - hi
