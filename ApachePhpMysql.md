@@ -40,4 +40,6 @@
 
 
 ## MySQL
+- Again followed the instructions to install and set up MySQL.
+![Screenshot 2024-03-04 at 1 27 54 AM](https://github.com/JessieS444/syslib/assets/157999229/35b12c06-d8a3-41de-8cd2-a368bff13ff4)
 
