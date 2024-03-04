@@ -42,4 +42,12 @@
 ## MySQL
 - Again followed the instructions to install and set up MySQL.
 ![Screenshot 2024-03-04 at 1 27 54 AM](https://github.com/JessieS444/syslib/assets/157999229/35b12c06-d8a3-41de-8cd2-a368bff13ff4)
+- I need to go back to this later and practice more with playing around in the different functions you can do now that we've created the LAMP stack. I feel confident in creating tables, using nano, and installing Apache, PHP, and MySQL, but I do not feel very comfortable with the different coding languages that we have dipped our toes into. I understand HTML more than before which is good.
 
+
+
+
+- I'm not sure if its just me but I don't know what to write in the notes. I don't feel like I have the vocabulary to describe well a lot of the things we are doing because I have zero background knowledge on a lot of the topics. I can replicate and play around a bit with what we are doing, but using precise terms to describe it is challenging.
+- For example: just to mention the coding languages above, I had to look up to verify that HTML is a coding language. I found it described as a markup language (specifically not a programming language), but that it is still coding? What exactly is coding? Programming? I know that Markdown is also a markup language, but I didn't think that was coding?
+- It feels a bit like knowing how to speak English but not knowing how to describe the grammar rules. You follow the rules, you can do it, but you can't tell how.
+- Sorry if that is an odd thing to put in these notes. It is very late.
