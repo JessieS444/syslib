@@ -149,20 +149,25 @@ insert into books
 5. I tested the queried on my webpage:
    input "room" and added the dates "01/01/2009" to today
    got the following result that I was aiming for:
-   ![image](https://github.com/JessieS444/syslib/assets/157999229/ddef8870-4164-4206-8220-afc19fa1fa33)
+
+![image](https://github.com/JessieS444/syslib/assets/157999229/ddef8870-4164-4206-8220-afc19fa1fa33)
 
    input "white teeth" and the dates "01/01/1999" to today
    got the following result:
-   ![image](https://github.com/JessieS444/syslib/assets/157999229/d178e4b8-f4c6-4306-a668-7f4eef02551c)
+
+ ![image](https://github.com/JessieS444/syslib/assets/157999229/d178e4b8-f4c6-4306-a668-7f4eef02551c)
 
    input "donoghue" and "01/01/2009" to today:
-   ![image](https://github.com/JessieS444/syslib/assets/157999229/e9a5a8aa-cd18-4ef3-a68f-79088a84765d)
+
+ ![image](https://github.com/JessieS444/syslib/assets/157999229/e9a5a8aa-cd18-4ef3-a68f-79088a84765d)
 
    input "hamish hamilton: and "01/01/1999" to today:
-   ![image](https://github.com/JessieS444/syslib/assets/157999229/37e79875-26bc-4f47-827a-de07a0226702)
+
+![image](https://github.com/JessieS444/syslib/assets/157999229/37e79875-26bc-4f47-827a-de07a0226702)
 
    I just input the "01/01/1999" to today"
-   ![image](https://github.com/JessieS444/syslib/assets/157999229/ee7518fc-43fe-481d-9972-8e6e7e850ee1)
+
+![image](https://github.com/JessieS444/syslib/assets/157999229/ee7518fc-43fe-481d-9972-8e6e7e850ee1)
 
 
 
