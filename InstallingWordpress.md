@@ -43,3 +43,19 @@ which translates to these actions:
 
 ## Set Up wg-config.php
 
+When creating the bare bones OPAC, we made the file "login.php" to house the name of the database, the name of the database user, and the user's password; we kind of replicated this for wordpress, but we call it "wg-config.php".
+
+To do this I:
+1. `cd wordpress`--switch to wordpress directory
+2. `ls-l` then `sudo cp wp-config-sample.php wp-config.php`--copy the "wp-config-sample.php" file to "wp-config.php" file
+3. `sudo nano wp-config.php`--open up the file in nano to edit and add info
+4. Replace database name, database user, and database password with desired options (I just did wordpress for the name of the db and user and the password I put in earlier).
+4. add "define('FS_METHOD','direct');" to the end of the nano file in order to disable FTP uploads.
+5. `sudo chown -R www-data:www-data /var/www/html/wordpress`--change file ownership
+
+
+## Finishing up
+
+The rest is done on browser? I went to my IP webpage to see what I've done: http://34.125.133.35/wordpress/wp-admin/install.php
+
+Now it's time to decorate! Huzzah!
