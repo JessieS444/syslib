@@ -1,6 +1,6 @@
 # Installing Koha ILS
 
-Let's try this again. I had already typed out a lot of documentation but hadn't saved it and accidentally hit the back button through a touchpad shortcut (UGH). Future self: SAVE YOUR WORK AS YOU GO DUMMY!
+Let's try this again. I had already typed out a lot of documentation but hadn't saved it and accidentally hit the back button through a touchpad shortcut (UGH). Future self, remember to save work.
 
 To start the Koha ILS installation process I first followed the directions from earlier in the semester to create a new VM instance that is capable of what we need it to do. Here is what I did:
 
@@ -37,7 +37,6 @@ After going to firewall, I clicked "create a firewall rule" (NOT "create a firew
         Add 8080 in the Ports box
     Click on Create
 
-Now we're cooking with fire (I assume. It seems like we're getting somewhere).
 
 Next, I connected to the new VM instance and ran `sudo apt update` and `sudo apt upgrade` to check for updates then install. I had 37 I needed to update. Then I ran `sudo apt autoremove -y && sudo apt clean` to save disk space.
 
