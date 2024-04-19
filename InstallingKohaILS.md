@@ -37,4 +37,15 @@ After going to firewall, I clicked "create a firewall rule" (NOT "create a firew
         Add 8080 in the Ports box
     Click on Create
 
-Now we're cooking with fire (I assume. It seems like we're getting somewhere). 
+Now we're cooking with fire (I assume. It seems like we're getting somewhere).
+
+Next, I connected to the new VM instance and ran `sudo apt update` and `sudo apt upgrade` to check for updates then install. I had 37 I needed to update. Then I ran `sudo apt autoremove -y && sudo apt clean` to save disk space.
+
+Then I used the command `sudo apt install gnupg2` to install gnupg2, which is "used to create digital signatures, encrypt data, and aid in secure communication."
+
+After installing, I needed to reboot so it could be effective. I used the command `sudo reboot now` and then reconnected using the gcloud command.
+
+
+## Adding Koha Repository
+
+To add the Koha 
