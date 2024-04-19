@@ -70,3 +70,51 @@ Finally we are installing. I followed the below instructions and they worked per
 3. And install it: `apt install koha-common`
 
 The above command will download and install a lot of additional software, and therefore the process will take several minutes. (which it did for me).
+
+
+Onto configuring. I followed the instructions provided and it seemed again to work perfectly:
+
+1. Next we need to edit some configuration files for Koha: `nano /etc/koha/koha-sites.conf`
+
+2. In the above koha-sites.conf file, change the line that contains the following information:
+
+INTRAPORT="80"
+
+To:
+
+INTRAPORT="8080"
+
+3. Next install and setup mysql-server: `apt install mysql-server`
+
+4. Next we set the root MySQL password (kept the default password shown but I made my own instead): `mysqladmin -u root password bibliolib1`
+
+5. When we installed Koha, the Apache2 web server was installed with it as a prerequisite. We need to enable URL rewriting and CGI functionality.
+```
+a2enmod rewrite
+a2enmod cgi 
+```
+
+6. Now we need to restart Apache2 in the normal way: `systemctl restart apache2`
+
+7. Next we create a database for Koha: `koha-create --create-db bibliolib`
+
+8. We need to tell Apache2 to listen on port 8080: `nano /etc/apache2/ports.conf`
+
+And add:
+
+Listen 8080
+
+9. Make sure Apache configuration changes are valid: `apachectl configtest`
+
+If you get an error message, trace the error in the file and line listed. (I did not thankfully.)
+
+10. Restart Apache2: `systemctl restart apache2`
+
+11. We'll disable the default Apache2 setup, enable traffic compression using deflate, enable the bibliolib site, and then reload Apache2's configurations and restart again:
+```
+a2dissite 000-default
+a2enmod deflate
+a2ensite bibliolib
+systemctl reload apache2
+systemctl restart apache2
+```
