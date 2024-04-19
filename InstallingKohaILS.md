@@ -118,3 +118,22 @@ a2ensite bibliolib
 systemctl reload apache2
 systemctl restart apache2
 ```
+
+## Koha Web Installation
+
+I followed these instructions and my Koha installation went well! I'm very pleased that this week's work has went so smoothly. After the catastrophic error messages of last week I was expecting the worst this week, but I guess being very very careful helped a decent amount.
+
+The last thing I did was set up the URL for my OPAC:
+When the install and setup are complete, you will have access to the staff interface. To view the public facing OPAC, you need to make a setting change.
+
+    Click on More in the top drop down box
+    Click on Administration
+    Click on Global System Preferences
+    Click on OPAC in the left hand side bar
+    Scroll down to the OPACBaseURL line.
+    Enter the IP address of your server: http://IP-ADDRESS
+    Click on Save all OPAC Preferences
+
+Once you save these preferences, you should be able to visit your public facing OPAC at the server IP address.
+
+And now I'm off to flesh this ILS and OPAC out! Yay!
