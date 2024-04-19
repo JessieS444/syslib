@@ -22,4 +22,19 @@ To start the Koha ILS installation process I first followed the directions from 
     Check the Allow HTTP Traffic button
     Finally, click on the Create button to create your VM instance.
 
-Okay, after creating that second VM instance I 
+Okay, after creating that second VM instance I needed to go to the hamburger menu and find VPN Network in order to create a firewall that will allow web traffic to come in and out from port 8080. I couldn't find an option for VPN Network, but I did see an option for VPC Networks which is just one letter off. I googled to find the differences and I didn't understand but there is a firewall option under VPC Networks so I'm assuming that is the right place.
+
+After going to firewall, I clicked "create a firewall rule" (NOT "create a firewall policy") and followed the following steps:
+
+
+    At the top of the page, choose Create a firewall rule (do not choose Create a firewall policy)
+        Add name: koha
+        Add description: open port 8080
+    Next to Targets, click on All instances in the network
+    In the Source IPv4 ranges, add 0.0.0.0/0
+    Click on Specified protocols and ports
+        Click on TCP
+        Add 8080 in the Ports box
+    Click on Create
+
+Now we're cooking with fire (I assume. It seems like we're getting somewhere). 
