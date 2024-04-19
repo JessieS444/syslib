@@ -46,6 +46,27 @@ Then I used the command `sudo apt install gnupg2` to install gnupg2, which is "u
 After installing, I needed to reboot so it could be effective. I used the command `sudo reboot now` and then reconnected using the gcloud command.
 
 
+
 ## Adding Koha Repository
 
-To add the Koha 
+To add the Koha repository, we need administrator access, so we have to use the `sudo su` command to log in as the root user.
+
+After logging in as the root user, I used the following command to add the Koha repository:
+`echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list`
+
+Then added the digital signature that verifies the repository:
+`wget -q -O- https://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -`
+
+
+
+## Installing and Configuring Koha
+
+Finally we are installing. I followed the below instructions and they worked perfectly (still in the root user):
+
+1. Next we need to update/sync the new repository with the Koha remote repository. This just means that we use `apt update` command again.
+
+2. Now we view the package information for Koha using the command `apt show koha-common`
+
+3. And install it: `apt install koha-common`
+
+The above command will download and install a lot of additional software, and therefore the process will take several minutes. (which it did for me).
